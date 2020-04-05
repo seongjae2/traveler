@@ -1,6 +1,21 @@
+.nav-item{
+    margin-left: 0.5rem;
+}
 
-
+.container{
+    margin-bottom: 3rem;
+}
 
 #banner {
     margin-bottom: 1rem;
 }
+
+.row{
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron {
+    background-image: url("source/background.png");
+    background-size: cover;
+    padding-bottom: 8rem;
+  }
