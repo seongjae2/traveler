@@ -1,7 +1,10 @@
-#caution{
+.card {
     width : 80%;
-    margin-top: 1rem;
     align: center;
+    margin: auto; /* Added */
+    float: none; /* Added */
+    margin-top: 1rem;
+    margin-bottom: 10px; /* Added */
     
 }
 
@@ -26,4 +29,14 @@
     background-image: url("../source/background.png");
     background-size: cover;
     padding-bottom: 8rem;
-  }
+}
+
+@media screen and (max-width :615px){
+    
+    img {
+        width: 80%;
+        height: auto !important;
+    }
+}
+
+
