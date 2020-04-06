@@ -33,3 +33,16 @@
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
 }
+
+
+@media screen and (max-width :615px){
+    
+    .nav-item{
+        font-size: 0.9rem;
+        margin-left:0rem;
+        line-height: 1.0;
+    }
+    .navbar-nav{
+        padding-left: 1rem !important;
+    }
+}
